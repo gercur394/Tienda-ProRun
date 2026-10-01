@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "nombre": "Zapatilla Runner X1",
+    "categoria": "zapatillas",
+    "precio": 85000,
+    "talles": [38, 39, 40, 41, 42, 43],
+    "imagen": "https://placehold.co/300x300/1a3c5e/ffffff?text=Runner+X1",
+    "descripcion": "Zapatilla running con amortiguación reforzada, ideal para entrenamientos diarios."
+  },
+  {
+    "id": 2,
+    "nombre": "Zapatilla Urban Flex",
+    "categoria": "zapatillas",
+    "precio": 72000,
+    "talles": [37, 38, 39, 40, 41, 42],
+    "imagen": "https://placehold.co/300x300/1a3c5e/ffffff?text=Urban+Flex",
+    "descripcion": "Zapatilla urbana liviana, cómoda para uso diario y entrenamiento funcional."
+  },
+  {
+    "id": 3,
+    "nombre": "Remera ProDry Básica",
+    "categoria": "remeras",
+    "precio": 18000,
+    "talles": ["S", "M", "L", "XL"],
+    "imagen": "https://placehold.co/300x300/28a745/ffffff?text=ProDry+Basica",
+    "descripcion": "Remera deportiva de secado rápido, tela transpirable."
+  },
+  {
+    "id": 4,
+    "nombre": "Remera Training Pro",
+    "categoria": "remeras",
+    "precio": 21000,
+    "talles": ["S", "M", "L", "XL", "XXL"],
+    "imagen": "https://placehold.co/300x300/28a745/ffffff?text=Training+Pro",
+    "descripcion": "Remera técnica con costuras reforzadas, pensada para entrenamiento intenso."
+  },
+  {
+    "id": 5,
+    "nombre": "Buzo Canguro Essential",
+    "categoria": "buzos",
+    "precio": 42000,
+    "talles": ["S", "M", "L", "XL"],
+    "imagen": "https://placehold.co/300x300/6c757d/ffffff?text=Buzo+Essential",
+    "descripcion": "Buzo canguro con frisa interior, bolsillo frontal tipo canguro."
+  },
+  {
+    "id": 6,
+    "nombre": "Buzo Half Zip Pro",
+    "categoria": "buzos",
+    "precio": 48000,
+    "talles": ["M", "L", "XL"],
+    "imagen": "https://placehold.co/300x300/6c757d/ffffff?text=Half+Zip+Pro",
+    "descripcion": "Buzo con cierre medio, tejido técnico para entrenamientos en exterior."
+  },
+  {
+    "id": 7,
+    "nombre": "Pantalón Jogger Flex",
+    "categoria": "pantalones",
+    "precio": 35000,
+    "talles": ["S", "M", "L", "XL"],
+    "imagen": "https://placehold.co/300x300/343a40/ffffff?text=Jogger+Flex",
+    "descripcion": "Pantalón jogger con puño elastizado, ideal para entrenar o uso casual."
+  },
+  {
+    "id": 8,
+    "nombre": "Short Training Light",
+    "categoria": "pantalones",
+    "precio": 22000,
+    "talles": ["S", "M", "L", "XL"],
+    "imagen": "https://placehold.co/300x300/343a40/ffffff?text=Short+Light",
+    "descripcion": "Short liviano con malla interior, diseñado para running y entrenamiento funcional."
+  },
+  {
+    "id": 9,
+    "nombre": "Campera Rompeviento Storm",
+    "categoria": "camperas",
+    "precio": 55000,
+    "talles": ["S", "M", "L", "XL"],
+    "imagen": "https://placehold.co/300x300/dc3545/ffffff?text=Storm",
+    "descripcion": "Campera rompeviento resistente al agua, liviana y plegable."
+  },
+  {
+    "id": 10,
+    "nombre": "Campera Térmica Winter Pro",
+    "categoria": "camperas",
+    "precio": 68000,
+    "talles": ["M", "L", "XL", "XXL"],
+    "imagen": "https://placehold.co/300x300/dc3545/ffffff?text=Winter+Pro",
+    "descripcion": "Campera térmica acolchada, ideal para entrenamientos de invierno."
+  },
+  {
+    "id": 11,
+    "nombre": "Gorra ProRun Classic",
+    "categoria": "accesorios",
+    "precio": 12000,
+    "talles": ["Único"],
+    "imagen": "https://placehold.co/300x300/f0ad4e/ffffff?text=Gorra+Classic",
+    "descripcion": "Gorra deportiva ajustable, logo bordado ProRun."
+  },
+  {
+    "id": 12,
+    "nombre": "Medias Running Pack x3",
+    "categoria": "accesorios",
+    "precio": 9000,
+    "talles": ["Único"],
+    "imagen": "https://placehold.co/300x300/f0ad4e/ffffff?text=Medias+Pack",
+    "descripcion": "Pack de 3 pares de medias técnicas, transpirables y antiampollas."
+  }
+]

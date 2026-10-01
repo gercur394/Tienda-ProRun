@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProRun - Indumentaria Deportiva</title>
+  <link rel="stylesheet" href="css/style.css">
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header id="header-principal">
+    <h1 class="logo">Pro<span>Run</span></h1>
+    <button id="btn-abrir-carrito" class="btn-carrito">
+      🛒 Carrito (<span id="contador-carrito">0</span>)
+    </button>
+  </header>
+
+  <!-- ===================== BUSCADOR Y FILTRO ===================== -->
+  <section id="barra-busqueda">
+    <input type="text" id="input-busqueda" placeholder="Buscar producto...">
+
+    <select id="select-categoria">
+      <option value="todas">Todas las categorías</option>
+      <option value="zapatillas">Zapatillas</option>
+      <option value="remeras">Remeras</option>
+      <option value="buzos">Buzos</option>
+      <option value="pantalones">Pantalones y shorts</option>
+      <option value="camperas">Camperas</option>
+      <option value="accesorios">Accesorios</option>
+    </select>
+  </section>
+
+  <!-- ===================== CATÁLOGO DE PRODUCTOS ===================== -->
+  <main>
+    <section id="catalogo">
+      
+      <div id="contenedor-productos" class="grid-productos"></div>
+    </section>
+  </main>
+
+  <!-- ===================== PANEL DE CARRITO (oculto por defecto) ===================== -->
+  <aside id="panel-carrito" class="panel-carrito oculto">
+    <div class="panel-carrito-header">
+      <h2>Tu carrito</h2>
+      <button id="btn-cerrar-carrito" class="btn-cerrar">✕</button>
+    </div>
+
+    <div id="contenedor-carrito-items">
+      
+    </div>
+
+    <div class="panel-carrito-footer">
+      <p class="total-carrito">Total: $<span id="total-carrito">0</span></p>
+      <button id="btn-vaciar-carrito" class="btn-secundario">Vaciar carrito</button>
+      <button id="btn-confirmar-compra" class="btn-primario">Confirmar compra</button>
+    </div>
+  </aside>
+
+  
+  <div id="fondo-oscuro" class="fondo-oscuro oculto"></div>
+
+  <!-- ===================== SCRIPTS ===================== -->
+  
+  <script src="js/productos.js" defer></script>
+  <!-- carrito.js: maneja agregar/quitar/modificar, storage y checkout -->
+  <script src="js/carrito.js" defer></script>
+
+</body>
+</html>
